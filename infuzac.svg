@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="100%" fill="none">
+  <title>Logo Infuzac</title>
+  
+  <defs>
+    <style>
+      .text-small { 
+        font-family: 'Century Gothic', Montserrat, Futura, sans-serif; 
+        font-size: 32px; 
+        fill: #546381; 
+      }
+      .text-large-dark { 
+        font-family: 'Century Gothic', Montserrat, Futura, sans-serif; 
+        font-size: 135px; 
+        font-weight: 900; 
+        fill: #546381; 
+        letter-spacing: -2px;
+        /* Truco para hacer la letra más gruesa */
+        stroke: #546381;
+        stroke-width: 1px;
+        stroke-linejoin: round;
+      }
+      .text-large-light { 
+        font-family: 'Century Gothic', Montserrat, Futura, sans-serif; 
+        font-size: 135px; 
+        font-weight: 900; 
+        fill: #B2DBD0; 
+        letter-spacing: -2px;
+        /* Truco para hacer la letra más gruesa */
+        stroke: #B2DBD0;
+        stroke-width: 6px;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <path d="M 70,113 L 70,75 A 30,30 0 0,1 130,75 L 130,113 Z" fill="#C93F6E" />
+  <path d="M 77,103 L 77,75 A 23,23 0 0,1 93,56" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none" />
+
+  <path d="M 70,118 L 70,158 A 30,30 0 0,0 130,158 L 130,118 Z" fill="#546381" />
+  <path d="M 123,128 L 123,158 A 23,23 0 0,1 107,177" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none" />
+
+  <text x="150" y="65" class="text-small">Centro de Infusión</text>
+  
+  <text x="136" y="175" transform="scale(1.1, 1)">
+    <tspan class="text-large-dark">nfu</tspan><tspan class="text-large-light">zac</tspan>
+  </text>
+
+  <rect x="70" y="215" width="575" height="11" fill="#C93F6E" />
+</svg>
