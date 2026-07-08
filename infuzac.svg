@@ -27,7 +27,7 @@
         letter-spacing: -2px;
         /* Truco para hacer la letra más gruesa */
         stroke: #B2DBD0;
-        stroke-width: 6px;
+        stroke-width: 1px;
         stroke-linejoin: round;
       }
     </style>

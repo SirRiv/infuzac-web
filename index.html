@@ -1,1 +1,679 @@
-<h1>Saludos cordiales desde infuzac.com</h1>
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>INFUZAC | Centro Oncológico de Infusión y Quimioterapia en Zacatecas</title>
+  <meta name="description"
+    content="INFUZAC es un centro de infusión oncológica líder en Zacatecas, comprometido con la quimioterapia, inmunoterapia y soporte clínico integral en un entorno cálido, humano y altamente profesional.">
+  <meta name="keywords"
+    content="infusión oncológica, quimioterapia zacatecas, inmunoterapia, tratamiento del cáncer, clínica oncológica, soporte clínico, zacatecas">
+  <meta name="author" content="INFUZAC">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.infuzac.com/">
+  <meta property="og:title" content="INFUZAC | Centro Oncológico de Infusión y Quimioterapia">
+  <meta property="og:description"
+    content="Atención médica oncológica de alta especialidad en Zacatecas. Quimioterapia y terapias biológicas en un ambiente diseñado para tu tranquilidad y bienestar.">
+  <meta property="og:image" content="hero_clinic.png">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.infuzac.com/">
+  <meta property="twitter:title" content="INFUZAC | Centro Oncológico de Infusión y Quimioterapia">
+  <meta property="twitter:description"
+    content="Atención médica oncológica de alta especialidad en Zacatecas. Quimioterapia y terapias biológicas en un ambiente diseñado para tu tranquilidad y bienestar.">
+  <meta property="twitter:image" content="hero_clinic.png">
+
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#546381',
+              light: '#B2DBD0',
+              accent: '#C93F6E',
+            }
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'Century Gothic', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-slate-50 text-slate-700 font-sans antialiased selection:bg-brand-accent selection:text-white">
+
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 md:h-24">
+
+        <a href="#inicio"
+          class="flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent focus-visible:ring-offset-2 rounded-lg"
+          aria-label="Volver al inicio - INFUZAC">
+          <img src="infuzac.svg" alt="Logo de INFUZAC Centro de Infusión" class="h-12 md:h-14 w-auto object-contain"
+            width="180" height="56">
+        </a>
+
+        <nav class="hidden lg:flex space-x-8 items-center" aria-label="Menú principal de navegación">
+          <a href="#inicio"
+            class="text-brand-dark font-medium hover:text-brand-accent transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-brand-accent after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left focus:outline-none focus:text-brand-accent">Inicio</a>
+          <a href="#servicios"
+            class="text-brand-dark font-medium hover:text-brand-accent transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-brand-accent after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left focus:outline-none focus:text-brand-accent">Especialidades</a>
+          <a href="#farmacia"
+            class="text-brand-dark font-medium hover:text-brand-accent transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-brand-accent after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left focus:outline-none focus:text-brand-accent">Farmacia</a>
+          <a href="#contacto"
+            class="text-brand-dark font-medium hover:text-brand-accent transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-6px] after:left-0 after:w-full after:h-[2px] after:bg-brand-accent after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left focus:outline-none focus:text-brand-accent">Contacto
+            y Mapa</a>
+        </nav>
+
+        <div class="hidden lg:block">
+          <a href="#contacto"
+            class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-accent text-white font-semibold text-sm shadow-md hover:bg-[#b0305a] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-brand-accent focus:ring-offset-2 transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 active:translate-y-0"
+            aria-label="Agendar una cita en INFUZAC">
+            <i class="fa-regular fa-calendar-check mr-2 text-base"></i>
+            Agendar Cita
+          </a>
+        </div>
+
+        <div class="lg:hidden">
+          <button id="menu-toggle" type="button"
+            class="inline-flex items-center justify-center p-2 rounded-md text-brand-dark hover:text-brand-accent hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-accent"
+            aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú de navegación">
+            <span class="sr-only">Abrir menú</span>
+            <svg id="menu-icon-open" class="h-8 w-8 block" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="menu-icon-close" class="h-8 w-8 hidden" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-100 bg-white" aria-hidden="true">
+      <div class="px-4 pt-4 pb-6 space-y-3 shadow-inner">
+        <a href="#inicio"
+          class="block px-4 py-3 rounded-lg text-base font-semibold text-brand-dark hover:bg-brand-light/20 hover:text-brand-accent transition-all duration-200">Inicio</a>
+        <a href="#servicios"
+          class="block px-4 py-3 rounded-lg text-base font-semibold text-brand-dark hover:bg-brand-light/20 hover:text-brand-accent transition-all duration-200">Especialidades</a>
+        <a href="#proceso"
+          class="block px-4 py-3 rounded-lg text-base font-semibold text-brand-dark hover:bg-brand-light/20 hover:text-brand-accent transition-all duration-200">Instalaciones</a>
+        <a href="#farmacia"
+          class="block px-4 py-3 rounded-lg text-base font-semibold text-brand-dark hover:bg-brand-light/20 hover:text-brand-accent transition-all duration-200">Farmacia</a>
+        <a href="#contacto"
+          class="block px-4 py-3 rounded-lg text-base font-semibold text-brand-dark hover:bg-brand-light/20 hover:text-brand-accent transition-all duration-200">Contacto
+          y Mapa</a>
+        <div class="pt-4 px-4">
+          <a href="#contacto"
+            class="w-full inline-flex items-center justify-center px-6 py-3 rounded-full bg-brand-accent text-white font-bold text-center shadow-md hover:bg-[#b0305a] focus:ring-2 focus:ring-brand-accent focus:ring-offset-2 transition-all duration-300">
+            <i class="fa-regular fa-calendar-check mr-2"></i>
+            Agendar Cita
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="inicio"
+      class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-brand-light/20 pt-10 pb-20 md:py-24 lg:py-32">
+      <div
+        class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-brand-light/10 to-transparent pointer-events-none">
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+
+          <div class="lg:col-span-7 flex flex-col justify-center text-left">
+            <span
+              class="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-bold bg-brand-light/40 text-brand-dark mb-6 max-w-max border border-brand-light/60 tracking-wider uppercase">
+              <i class="fa-solid fa-star-of-life text-brand-accent mr-2 animate-pulse"></i>
+              Oncología Médica de Alta Especialidad
+            </span>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-brand-dark leading-tight">
+              El cuidado que <span class="text-brand-accent">mereces</span>,<br class="hidden sm:inline">
+              la seguridad que <span class="text-brand-accent">necesitas</span>.
+            </h1>
+
+            <p class="mt-6 text-lg sm:text-xl text-slate-600 font-normal leading-relaxed max-w-2xl">
+              En <strong class="font-semibold text-brand-dark">INFUZAC</strong> transformamos la experiencia de los
+              tratamientos oncológicos ambulatorios. Brindamos quimioterapia y tratamiento de otros medicamentos
+              intravenosos, soporte clínico en un entorno de paz absoluta, guiados por especialistas enfocados en tu
+              bienestar físico y emocional.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-4">
+              <a href="#contacto"
+                class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-brand-accent text-white font-bold text-base shadow-lg shadow-brand-accent/20 hover:bg-[#b0305a] hover:shadow-xl hover:shadow-brand-accent/30 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:ring-offset-2 transition-all duration-300 transform hover:-translate-y-0.5"
+                aria-label="Solicitar consulta de valoración en INFUZAC">
+                Agendar Valoración
+                <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+              </a>
+
+              <a href="#servicios"
+                class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-brand-dark border-2 border-slate-200 font-semibold text-base shadow-sm hover:bg-slate-50 hover:border-brand-dark/30 hover:text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-dark focus:ring-offset-2 transition-all duration-300"
+                aria-label="Explorar servicios disponibles">
+                Ver Especialidades
+              </a>
+            </div>
+
+            <div class="mt-12 grid grid-cols-3 gap-4 border-t border-slate-100 pt-8 max-w-xl">
+              <div>
+                <p class="text-2xl sm:text-3xl font-extrabold text-brand-dark">100%</p>
+                <p class="text-xs sm:text-sm text-slate-500 font-medium mt-1">Especialistas Certificados</p>
+              </div>
+              <div class="border-l border-slate-200 pl-4">
+                <p class="text-2xl sm:text-3xl font-extrabold text-brand-dark">0%</p>
+                <p class="text-xs sm:text-sm text-slate-500 font-medium mt-1">Tiempos de Espera</p>
+              </div>
+              <div class="border-l border-slate-200 pl-4">
+                <p class="text-2xl sm:text-3xl font-extrabold text-brand-dark">24/7</p>
+                <p class="text-xs sm:text-sm text-slate-500 font-medium mt-1">Soporte y Orientación</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 relative">
+            <div
+              class="absolute -top-4 -left-4 w-72 h-72 bg-brand-light rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-blob">
+            </div>
+            <div
+              class="absolute -bottom-8 -right-4 w-72 h-72 bg-brand-accent rounded-full mix-blend-multiply filter blur-2xl opacity-20 animate-blob animation-delay-2000">
+            </div>
+
+            <div
+              class="relative rounded-3xl p-2 bg-gradient-to-tr from-brand-light to-white shadow-2xl transition-transform duration-500 hover:scale-[1.02]">
+              <div class="relative rounded-2xl overflow-hidden aspect-square">
+                <img src="hero_clinic.png"
+                  alt="Sillón ergonómico de infusión en la sala de INFUZAC con iluminación natural y una enfermera sonriente"
+                  class="w-full h-full object-cover" width="500" height="500" loading="eager">
+              </div>
+            </div>
+
+            <div
+              class="absolute bottom-6 -left-6 bg-white/95 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-xl flex items-center gap-3 border border-slate-100 max-w-xs">
+              <div class="flex-shrink-0 bg-brand-light/40 p-3 rounded-xl">
+                <i class="fa-solid fa-heart-pulse text-brand-dark text-xl"></i>
+              </div>
+              <div>
+                <p class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Compromiso</p>
+                <p class="text-sm font-extrabold text-brand-dark">Empatía y Calidez Humana</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16 fade-in-on-scroll">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight uppercase">
+            Tratamiento Intravenoso Para:
+          </h2>
+          <div class="h-1 w-20 bg-brand-accent mx-auto mt-4 rounded-full"></div>
+          <p class="mt-5 text-lg text-slate-500">
+            Contamos con las instalaciones and el personal calificado para la aplicación segura de medicamentos
+            intravenosos de diversas especialidades.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <article
+            class="group flex items-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 fade-in-on-scroll">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-dark/10 flex items-center justify-center text-brand-dark mr-4 group-hover:bg-brand-dark group-hover:text-white transition-colors duration-300 flex-shrink-0">
+              <i class="fa-solid fa-ribbon text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-dark">Oncología</h3>
+          </article>
+
+          <article
+            class="group flex items-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 fade-in-on-scroll"
+            style="transition-delay: 100ms;">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent mr-4 group-hover:bg-brand-accent group-hover:text-white transition-colors duration-300 flex-shrink-0">
+              <i class="fa-solid fa-brain text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-dark">Neurología</h3>
+          </article>
+
+          <article
+            class="group flex items-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 fade-in-on-scroll"
+            style="transition-delay: 200ms;">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-light/40 flex items-center justify-center text-brand-dark mr-4 group-hover:bg-brand-light group-hover:text-brand-dark transition-colors duration-300 flex-shrink-0">
+              <i class="fa-solid fa-droplet text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-dark">Hematología</h3>
+          </article>
+
+          <article
+            class="group flex items-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 fade-in-on-scroll"
+            style="transition-delay: 300ms;">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-dark/10 flex items-center justify-center text-brand-dark mr-4 group-hover:bg-brand-dark group-hover:text-white transition-colors duration-300 flex-shrink-0">
+              <i class="fa-solid fa-filter text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-dark">Nefrología</h3>
+          </article>
+
+          <article
+            class="group flex items-center p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 fade-in-on-scroll"
+            style="transition-delay: 400ms;">
+            <div
+              class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent mr-4 group-hover:bg-brand-accent group-hover:text-white transition-colors duration-300 flex-shrink-0">
+              <i class="fa-solid fa-bone text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-dark">Reumatología</h3>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="proceso"
+      class="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-brand-light/20 relative overflow-hidden">
+      <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-light/30 rounded-full blur-3xl pointer-events-none">
+      </div>
+      <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-brand-light/30 rounded-full blur-3xl pointer-events-none">
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+
+        <div class="text-center max-w-3xl mx-auto mb-16 fade-in-on-scroll">
+          <span
+            class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-white text-brand-accent mb-4 border border-slate-100 tracking-wide uppercase">Instalaciones</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Conoce Nuestro Espacio</h2>
+          <div class="h-1 w-20 bg-brand-accent mx-auto mt-4 rounded-full"></div>
+          <p class="mt-5 text-lg text-slate-500">Un entorno diseñado para tu comodidad, seguridad y tranquilidad durante
+            tu tratamiento médico.</p>
+        </div>
+
+        <div
+          class="relative w-full max-w-4xl mx-auto rounded-3xl shadow-2xl overflow-hidden aspect-[4/3] sm:aspect-video bg-slate-900 fade-in-on-scroll flex items-center justify-center">
+          <div id="image-carousel"
+            class="flex h-full w-full items-center transition-transform duration-700 ease-in-out">
+            <img src="images/354211844_564690982532300_1281937094381863970_n.jpeg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/357450218_576483974686334_2411161443119962188_n.jpeg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/480873912_945121967822531_537897030027992625_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481011214_945326637802064_154390046814952394_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481053501_945316821136379_740747342661621060_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481235796_945313881136673_8210154056529652889_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481237530_945811627753565_2926277079236284694_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481277553_945319771136084_4708218110365915665_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481659135_945809427753785_2696073093821225985_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481957413_945816161086445_4577241878647393390_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481971954_945325514468843_5659559956058897096_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481978279_945315821136479_1707066833171977903_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/481997921_945124184488976_2120862135232167208_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/482019277_945807407753987_5908290264376534564_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+            <img src="images/482028306_945322184469176_8437236977258762278_n.jpg" alt="Instalaciones INFUZAC"
+              class="w-full h-full object-contain flex-shrink-0" loading="lazy">
+          </div>
+
+          <button id="prev-slide"
+            class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white text-brand-dark rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-brand-accent">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="next-slide"
+            class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white text-brand-dark rounded-full w-10 h-10 flex items-center justify-center shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-brand-accent">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+          <div
+            class="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 bg-black/40 px-4 py-2 rounded-full overflow-x-auto max-w-[90%] hide-scrollbar"
+            id="carousel-indicators"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= FARMACIA Y DISTRIBUIDORA ================= -->
+    <section id="farmacia" class="py-20 md:py-28 bg-white border-t border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16 fade-in-on-scroll">
+          <span
+            class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-brand-light/20 text-brand-dark mb-4 border border-brand-light/50 tracking-wide uppercase">Nuestros
+            Servicios Adicionales</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Farmacia Oncológica y
+            Distribuidora</h2>
+          <div class="h-1 w-20 bg-brand-accent mx-auto mt-4 rounded-full"></div>
+          <p class="mt-5 text-lg text-slate-500">
+            Contamos con una extensa gama de medicamentos especializados para asegurar que tu tratamiento nunca se
+            detenga.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- Farmacia Oncológica -->
+          <div
+            class="bg-slate-50 rounded-3xl p-8 sm:p-10 border border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-300 fade-in-on-scroll">
+            <div
+              class="w-16 h-16 rounded-2xl bg-brand-accent/10 flex items-center justify-center text-brand-accent mb-6">
+              <i class="fa-solid fa-prescription-bottle-medical text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-brand-dark mb-4">Farmacia Oncológica</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Nuestra farmacia interna está especializada en medicamentos oncológicos e insumos médicos de alta
+              especialidad. Trabajamos bajo los más estrictos estándares de calidad y manejo de red de frío para
+              garantizar la eficacia de cada tratamiento.
+            </p>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-accent mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Medicamentos oncológicos y terapias dirigidas.</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-accent mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Insumos para aplicación intravenosa.</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-accent mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Manejo riguroso de temperatura (red de frío).</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Distribuidora de Medicamentos -->
+          <div
+            class="bg-slate-50 rounded-3xl p-8 sm:p-10 border border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-300 fade-in-on-scroll"
+            style="transition-delay: 100ms;">
+            <div class="w-16 h-16 rounded-2xl bg-brand-dark/10 flex items-center justify-center text-brand-dark mb-6">
+              <i class="fa-solid fa-truck-medical text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-brand-dark mb-4">Distribuidora de Medicamentos</h3>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Además de la atención directa a pacientes, somos distribuidores de medicamentos de alta especialidad.
+              Proveemos a clínicas, hospitales y profesionales de la salud con un catálogo amplio y disponibilidad
+              garantizada.
+            </p>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-dark mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Suministro para instituciones médicas.</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-dark mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Catálogo extenso de alta especialidad médica.</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fa-solid fa-check text-brand-dark mt-1 mr-3"></i>
+                <span class="text-slate-600 font-medium">Logística segura y especializada.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="py-20 md:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16 fade-in-on-scroll">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight">Estamos Aquí para Acompañarte
+          </h2>
+          <div class="h-1 w-20 bg-brand-accent mx-auto mt-4 rounded-full"></div>
+          <p class="mt-5 text-lg text-slate-500">Resuelve tus dudas, solicita presupuestos o agenda una consulta sin
+            compromiso.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
+
+          <div
+            class="lg:col-span-7 bg-slate-50 p-8 sm:p-10 rounded-3xl border border-slate-100 shadow-sm flex flex-col justify-between fade-in-on-scroll">
+            <div>
+              <h3 class="text-2xl font-bold text-brand-dark mb-2">Solicitar Información o Cita</h3>
+              <p class="text-sm text-slate-500 mb-8">Completa el formulario y un especialista clínico de INFUZAC te
+                llamará en menos de 24 horas hábiles.</p>
+
+              <form id="contact-form" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label for="name"
+                      class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-2">Nombre
+                      Completo</label>
+                    <input type="text" id="name" name="name" required
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all duration-300 text-sm"
+                      placeholder="Ej. Ana María Pérez">
+                  </div>
+                  <div>
+                    <label for="phone"
+                      class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-2">Teléfono de
+                      Contacto</label>
+                    <input type="tel" id="phone" name="phone" required
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all duration-300 text-sm"
+                      placeholder="Ej. 492 123 4567">
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label for="email"
+                      class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-2">Correo
+                      Electrónico</label>
+                    <input type="email" id="email" name="email" required
+                      class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all duration-300 text-sm"
+                      placeholder="ejemplo@correo.com">
+                  </div>
+                  <div>
+                    <label for="service-type"
+                      class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-2">Tipo de Servicio
+                      Requerido</label>
+                    <div class="relative">
+                      <select id="service-type" name="service-type" required
+                        class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all duration-300 text-sm appearance-none cursor-pointer">
+                        <option value="">Selecciona una opción...</option>
+                        <option value="quimioterapia">Quimioterapia</option>
+                        <option value="inmunoterapia">Cita con Oncólogo</option>
+                        <option value="soporte">Cotización de Aplicación de Medicamentos</option>
+                        <option value="consulta">Compra de Medicamentos</option>
+                        <option value="general">Información General</option>
+                      </select>
+                      <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-400">
+                        <i class="fa-solid fa-angle-down text-xs"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="message"
+                    class="block text-xs font-bold text-brand-dark uppercase tracking-wider mb-2">Detalles Adicionales
+                    (Opcional)</label>
+                  <textarea id="message" name="message" rows="4"
+                    class="w-full px-4 py-3 rounded-xl border border-slate-200 bg-white text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-accent focus:border-transparent transition-all duration-300 text-sm resize-none"
+                    placeholder="Cuéntanos brevemente cómo podemos ayudarte..."></textarea>
+                </div>
+
+
+
+                <button type="submit"
+                  class="w-full inline-flex items-center justify-center px-6 py-4 rounded-xl bg-[#25D366] text-white font-bold text-sm shadow-md hover:bg-[#128C7E] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 transition-all duration-300 ease-in-out transform active:scale-95"
+                  aria-label="Enviar mensaje por WhatsApp">
+                  <i class="fa-brands fa-whatsapp text-xl mr-2"></i>
+                  Enviar por WhatsApp
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex flex-col justify-between gap-8 fade-in-on-scroll"
+            style="transition-delay: 100ms;">
+            <address class="not-italic bg-brand-dark text-white p-8 rounded-3xl shadow-sm flex flex-col gap-6">
+              <h3 class="text-xl font-bold text-brand-light">Información de Contacto</h3>
+
+              <div class="space-y-4 text-sm">
+                <div class="flex items-start gap-3">
+                  <div class="flex-shrink-0 text-brand-light mt-1"><i class="fa-solid fa-phone"></i></div>
+                  <div>
+                    <p class="font-bold text-slate-300">Teléfono Clínico</p>
+                    <a href="tel:+524921234567"
+                      class="hover:text-brand-light transition-colors text-white font-semibold"
+                      aria-label="Llamar al teléfono clínico de INFUZAC">+52 (492) 492 584 4572 ext 408</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="flex-shrink-0 text-brand-light mt-1"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="flex flex-col gap-2">
+                    <p class="font-bold text-slate-300">Contactanos por correo electrónico</p>
+                    <a href="mailto:infuzac@infuzac.com"
+                      class="hover:text-brand-light transition-colors text-white font-semibold">infuzac@infuzac.com</a>
+                    <a href="mailto:farmacia@infuzac.com"
+                      class="hover:text-brand-light transition-colors text-white font-semibold">farmacia@infuzac.com</a>
+                    <a href="mailto:centro@infuzac.com"
+                      class="hover:text-brand-light transition-colors text-white font-semibold">centro@infuzac.com</a>
+                    <a href="mailto:dr.rivera@infuzac.com"
+                      class="hover:text-brand-light transition-colors text-white font-semibold">dr.rivera@infuzac.com</a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                  <div class="flex-shrink-0 text-brand-light mt-1"><i class="fa-solid fa-location-dot"></i></div>
+                  <div>
+                    <p class="font-bold text-slate-300">Dirección</p>
+                    <p class="text-white font-semibold">Cráter 10, Cañada de la Bufa, 98619 Guadalupe, Zac.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-t border-slate-600 pt-6">
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-300 mb-4">Síguenos en Redes Sociales</p>
+                <div class="flex gap-4">
+                  <a href="https://www.facebook.com/infuzacatecas" target="_blank" rel="noopener noreferrer"
+                    class="w-10 h-10 rounded-full bg-slate-700/50 flex items-center justify-center hover:bg-brand-accent hover:text-white transition-all duration-300 text-brand-light text-lg"
+                    aria-label="Visitar el perfil de Facebook de INFUZAC">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/infuzac/" target="_blank" rel="noopener noreferrer"
+                    class="w-10 h-10 rounded-full bg-slate-700/50 flex items-center justify-center hover:bg-brand-accent hover:text-white transition-all duration-300 text-brand-light text-lg"
+                    aria-label="Visitar el perfil de Instagram de INFUZAC">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </address>
+
+            <figure
+              class="flex-grow rounded-3xl overflow-hidden shadow-md border border-slate-100 min-h-[300px] relative">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d352.037797063331!2d-102.53665506643475!3d22.76428494240282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824fdb5beb51b7%3A0x1800ae22301cc758!2sINFUZAC!5e0!3m2!1ses-419!2smx!4v1783491139233!5m2!1ses-419!2smx"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="w-full h-full min-h-[300px] border-0"
+                title="Mapa interactivo con la ubicación de INFUZAC en Zacatecas"></iframe>
+              <figcaption class="sr-only">Mapa indicando la ubicación física de INFUZAC en Av. Universidad 302,
+                Zacatecas.</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-brand-dark text-white border-t border-slate-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
+
+        <div class="md:col-span-6 lg:col-span-5">
+          <img src="infuzac.svg" alt="Logo de INFUZAC" class="h-10 md:h-12 w-auto brightness-0 invert" width="150"
+            height="47">
+          <p class="mt-6 text-sm text-slate-300 leading-relaxed max-w-sm">
+            INFUZAC ofrece servicios especializados de infusión de quimioterapia e inmunoterapia en el estado de
+            Zacatecas. Combinamos seguridad clínica con calidez y cercanía para acompañarte en tu proceso médico.
+          </p>
+        </div>
+
+        <div class="md:col-span-3 md:col-start-8 lg:col-span-3 lg:col-start-9">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-brand-light mb-4">Enlaces Rápidos</h4>
+          <ul class="space-y-2 text-sm" aria-label="Menú secundario de enlaces del sitio">
+            <li><a href="#inicio"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white">Inicio</a>
+            </li>
+            <li><a href="#servicios"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white">Especialidades</a>
+            </li>
+            <li><a href="#farmacia"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white">Tu
+                Farmacia</a></li>
+            <li><a href="#contacto"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white">Contacto
+                y Ubicación</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="md:col-span-3 lg:col-span-4">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-brand-light mb-4">Avisos Legales</h4>
+          <ul class="space-y-2 text-sm" aria-label="Avisos legales y regulaciones">
+            <li><a href="#contacto"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white"
+                aria-label="Leer Aviso de Privacidad de Datos">Aviso de Privacidad</a></li>
+            <li><a href="#contacto"
+                class="text-slate-300 hover:text-white transition-colors duration-300 focus:outline-none focus:text-white"
+                aria-label="Leer Términos y Condiciones del Servicio">Términos y Condiciones</a></li>
+
+          </ul>
+        </div> -->
+
+      </div>
+
+      <div
+        class="border-t border-slate-700 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <p>© 2026 INFUZAC - Centro de Infusión. Todos los derechos reservados.</p>
+        <p>Aviso de publicidad COFEPRIS: 2332012002A00021.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
